@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _isalpha - check the code for holberton school.
  *@c: letter being tested
