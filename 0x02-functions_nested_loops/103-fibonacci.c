@@ -20,7 +20,7 @@ int main(void)
 		{
 			sums += k;
 		}
+		printf("%lu\n", sums);
 	}
-	printf("%lu\n", sums);
 	return (0);
 }
