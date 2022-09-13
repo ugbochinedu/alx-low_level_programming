@@ -6,21 +6,17 @@
 
 int main(void)
 {
-	unsigned long count, i, j, k, sums;
+	int i = 1, j = 2, sums = 0;
+	int k;
 
-	i = sums = 0;
-	j = i;
-
-	for (count = 0; count < 50; count++)
+	while (j < 4000000)
 	{
-		k = i + j;
-		i = j;
-		j = k;
-		if (k % 2 == 0 && k < 4000000)
-		{
-			sums += k;
-		}
-		printf("%lu\n", sums);
+		if (j % 2 == 0)
+			sums += j;
+		k = j;
+		j += i;
+		i = k;
 	}
+	printf("%d\n", sums);
 	return (0);
 }
