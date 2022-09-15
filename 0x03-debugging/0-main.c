@@ -2,7 +2,6 @@
 
 /**
  * main - tests function that prints if integar is positive or negative
- *
  * Return: 0
  */
 
