@@ -6,7 +6,7 @@
  * @Return: void
  */
 
-void print_trianglr(int size)
+void print_triangle(int size)
 {
 	int i = 1, ii;
 
