@@ -8,7 +8,7 @@
 
 void print_trianglr(int size)
 {
-	int i, ii;
+	int i = 1, ii;
 
 	while (i <= size && size > 0)
 	{
