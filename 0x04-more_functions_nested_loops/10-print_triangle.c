@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - check for a digit
- * @size : integer typr
+ * @size : integer type
  * @Return: void
  */
 
