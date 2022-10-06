@@ -130,7 +130,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 }
 
 /**
- * add-nums - adds the numbers
+ * add_nums - adds the numbers
  * @final_prod: The buffer storing the product
  * @next_prod: the next product
  * @next_len: the lenght of next_prod.
@@ -177,7 +177,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  * @argv: The numbers of arguments
  * @argc: An array of pointers
  * Description: exits ststus with 98
- * Returb: 0.
+ * Return: 0.
  */
 
 int main(int argc, char *argv[])
