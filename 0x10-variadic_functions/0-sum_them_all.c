@@ -3,6 +3,7 @@
 /**
  * sum_them_all - sum up
  * @n: numbers
+ * @...: A variable number.
  * Return: 0 or sum
  */
 
